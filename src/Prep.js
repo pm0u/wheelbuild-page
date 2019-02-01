@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TT from './TT'
+import { prep_workspace } from './photos'
 
 class Prep extends Component {
 
@@ -24,7 +25,7 @@ class Prep extends Component {
       </div>
       <div className='col s12 l6'>
 
-      <img alt='workspace' className="materialboxed responsive-img" width="100%" src="./photos/workspace_prep.JPG" />
+      <img alt='workspace' className="materialboxed responsive-img" width="100%" src={prep_workspace} />
       </div>
       </div>
 

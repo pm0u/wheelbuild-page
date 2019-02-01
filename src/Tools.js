@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TT from './TT.js'
+import { tools_optional, tools_necessary, truing_stand} from './photos'
 
 class Tools extends Component {
 
@@ -41,13 +42,13 @@ class Tools extends Component {
       </div>
       <div className='col s12 l4'>
       <div className='row'>
-      <img alt='tools' className="materialboxed responsive-img" width="100%" src="./photos/tools_necessary.JPG" />
+      <img alt='tools' className="materialboxed responsive-img" width="100%" src={tools_necessary} />
       </div><div className='row'>
-      <img alt='tools' className="materialboxed responsive-img" width="100%" src="./photos/tools_optional.JPG" />
+      <img alt='tools' className="materialboxed responsive-img" width="100%" src={tools_optional} />
       </div>
       </div>
       <div className='col s12 l4'>
-      <img alt='tools' className='materialboxed responsive-img' src='./photos/truing_stand.JPG' />
+      <img alt='tools' className='materialboxed responsive-img' src={truing_stand} />
       </div>
       </div>
       <div className='row'>

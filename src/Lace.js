@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import TT from './TT'
 import Check from './Check'
+import { key_spokes, key_spokes_hub, key_spokes_rim, lace_half_all, lace_half_leading, interlace1, lace_all_spokes, lace_start_other_side, lace_wangle_spoke, lace_first_spoke_other_side, lace_leading_other_side, lace_other_side_valve_framed } from './photos'
 
 class Lace extends Component {
 
@@ -29,15 +30,15 @@ These will be on either side of valve hole, put one directly against the valve h
       <div className='col s12 l8'>
         <div className='row'>
       <div className='col s12 l6'>
-      <img alt='2468 method' className="materialboxed responsive-img" width="100%" src="./photos/key_spokes_hub.JPG" />
+      <img alt='2468 method' className="materialboxed responsive-img" width="100%" src={key_spokes_hub} />
       </div>
       <div className='col s12 l6'>
-      <img alt='2468 method' className="materialboxed responsive-img" width="100%" src="./photos/key_spokes_rim.JPG" />
+      <img alt='2468 method' className="materialboxed responsive-img" width="100%" src={key_spokes_rim} />
       </div>
     </div>
       <div className='row'>
         <div className='col s12 l12'>
-          <img alt='2468 method' className="materialboxed responsive-img" width="100%" src="./photos/key_spokes.JPG" />
+          <img alt='2468 method' className="materialboxed responsive-img" width="100%" src={key_spokes} />
       </div>
     </div>
       </div>
@@ -50,7 +51,7 @@ These will be on either side of valve hole, put one directly against the valve h
       lace all spokes of one direction
       </div>
       <div className='col s12 l6'>
-      <img alt='lace all leading' className="materialboxed responsive-img" width="100%" src="./photos/lace_half_leading.JPG" />
+      <img alt='lace all leading' className="materialboxed responsive-img" width="100%" src={lace_half_leading} />
       </div>
       </div>
 
@@ -64,10 +65,10 @@ These will be on either side of valve hole, put one directly against the valve h
       we will need to <TT interlace /> the 3rd
       </div>
       <div className='col s12 l4'>
-      <img alt='lace all leading' className="materialboxed responsive-img" width="100%" src="./photos/interlace3.JPG" />
+      <img alt='lace all leading' className="materialboxed responsive-img" width="100%" src={interlace1} />
       </div>
       <div className='col s12 l4'>
-      <img alt='lace all leading' className="materialboxed responsive-img" width="100%" src="./photos/lace_half_all.JPG" />
+      <img alt='lace all leading' className="materialboxed responsive-img" width="100%" src={lace_half_all} />
       </div>
       </div>
 
@@ -86,18 +87,18 @@ Use it as a guide for all other spokes on this side
 
         </div>
         <div className='col s12 l4'>
-      <img alt='lace all leading' className="materialboxed responsive-img" width="100%" src="./photos/lace_start_other_side.JPG" />
+      <img alt='lace all leading' className="materialboxed responsive-img" width="100%" src={lace_start_other_side} />
         </div>
         <div className='col s12 l4'>
-      <img alt='lace all leading' className="materialboxed responsive-img" width="100%" src="./photos/lace_other_side_valve_framed.JPG" />
+      <img alt='lace all leading' className="materialboxed responsive-img" width="100%" src={lace_other_side_valve_framed} />
         </div>
       </div>
       <div className='row'>
         <div className='col s12 l4'>
-      <img alt='lace all leading' className="materialboxed responsive-img" width="100%" src="./photos/lace_wangle_spoke.JPG" />
+      <img alt='lace all leading' className="materialboxed responsive-img" width="100%" src={lace_wangle_spoke} />
         </div>
         <div className='col s12 l4'>
-      <img alt='lace all leading' className="materialboxed responsive-img" width="100%" src="./photos/lace_first_spoke_other_side.JPG" />
+      <img alt='lace all leading' className="materialboxed responsive-img" width="100%" src={lace_first_spoke_other_side} />
         </div>
         <div className='col s12 l4'>
         </div>
@@ -108,7 +109,7 @@ Use it as a guide for all other spokes on this side
           install remaining spokes of same direction.
         </div>
         <div className='col s12 l6'>
-      <img alt='lace all leading' className="materialboxed responsive-img" width="100%" src="./photos/lace_leading_other_side.JPG" />
+      <img alt='lace all leading' className="materialboxed responsive-img" width="100%" src={lace_leading_other_side} />
         </div>
       </div>
       <Check>At hub, there should be an empty spoke hole next to each installed spoke and they all leave the hub on the inside. At the rim, there are 3 spoke holes between each of these spokes (2 with spokes in them, 1 empty)</Check>
@@ -119,7 +120,7 @@ Use it as a guide for all other spokes on this side
           need to cross 3 spokes, interlace
         </div>
         <div className='col s12 l6'>
-      <img alt='lace all leading' className="materialboxed responsive-img" width="100%" src="./photos/lace_all_spokes.JPG" />
+      <img alt='lace all leading' className="materialboxed responsive-img" width="100%" src={lace_all_spokes} />
         </div>
       </div>
 
