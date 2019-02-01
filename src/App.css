@@ -17,6 +17,10 @@ summary {
   border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 }
 
+.warning {
+  color: #f9a825;
+}
+
 .counter {
     font-family: 'Roboto Mono';
 }

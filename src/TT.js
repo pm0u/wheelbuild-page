@@ -39,9 +39,12 @@ class TT extends Component {
         text = 'hub'
         tip = 'hub explanation'
         break
-        case (tt.rim):
+      case (tt.rim):
         text = 'rim'
         tip = 'rim explanation'
+        case (tt.interlace):
+        text = 'interlace'
+        tip = 'where the inner spoke passes to the outside of a spoke that it crosses (and vice versa)'
     }
 
     return ( <
