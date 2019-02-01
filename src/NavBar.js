@@ -8,7 +8,7 @@ class NavBar extends Component {
         <nav style={styles.nav} className='amber lighten-5'>
     <div className="nav-wrapper amber lighten-5">
       <span data-target="slide-out" className="sidenav-trigger left" style={styles.menu}><i className="material-icons" style={styles.icon}>menu</i></span>
-      <a style={styles.icon} className="brand-logo">The Joy of Wheelbuilding</a>
+      <a style={styles.icon} className="brand-logo truncate">The Joy of Wheelbuilding</a>
     </div>
   </nav>
   </div>

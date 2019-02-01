@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TT from './TT'
+import { hub_etf, hub_ete, flange_d } from './photos'
 
 class Measure extends Component {
 
@@ -19,10 +20,10 @@ class Measure extends Component {
           <p>explain how to measure CTF</p>
         </div>
         <div className='col s12 l4'>
-          <img className='materialboxed responsive-img' src='./photos/measure_hub_ete.JPG' />
+          <img className='materialboxed responsive-img' src={hub_ete} />
         </div>
         <div className='col s12 l4'>
-          <img className='materialboxed responsive-img' src='./photos/measure_hub_etf.JPG' />
+          <img className='materialboxed responsive-img' src={hub_etf} />
         </div>
       </div>
       <div className='row'>
@@ -30,7 +31,7 @@ class Measure extends Component {
           <p>explain measuring flange diameter</p>
         </div>
         <div className='col s12 l6'>
-          <img className='materialboxed responsive-img' src='./photos/measure_hub_fd.JPG' />
+          <img className='materialboxed responsive-img' src={flange_d} />
         </div>
       </div>
     </details>
