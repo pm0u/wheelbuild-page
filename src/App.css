@@ -1,0 +1,35 @@
+*{ color: #455a64 }
+
+body {
+  background: #efebe9;
+}
+
+h3 {
+  text-align: center;
+}
+summary {
+  font-size: 1.64rem
+}
+
+.tooltipped {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+.counter {
+    font-family: 'Roboto Mono';
+}
+
+ul {
+  list-style-type: square;
+
+}
+
+.materialboxed {
+  padding: 10px;
+}
+
+.tooltip-content {
+  color: white;
+}
