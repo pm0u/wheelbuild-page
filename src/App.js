@@ -7,6 +7,7 @@ import Tools from './Tools'
 import TT  from './TT.js'
 import Prep from './Prep'
 import Lace from './Lace'
+import Tension from './Tension'
 import './App.css'
 
 class App extends Component {
@@ -45,6 +46,8 @@ class App extends Component {
         <Prep />
         <hr />
         <Lace />
+        <hr />
+        <Tension />
         </div>
       </div>
     );
