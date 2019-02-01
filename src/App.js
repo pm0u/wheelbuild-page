@@ -35,15 +35,15 @@ class App extends Component {
         <div className='container'>
         <h3>There are currently <span className='counter'><TT text={this.state.startingVal + this.state.count} tip='(this is completely made up)'/></span> ways to build a bicycle wheel and this is one of them
         </h3>
-        <div className='divider'></div>
+        <hr />
         <Intro />
-        <div className='divider'></div>
+        <hr />
         <Tools />
-        <div className='divider'></div>
+        <hr />
         <Measure />
-        <div className='divider'></div>
+        <hr />
         <Prep />
-        <div className='divider'></div>
+        <hr />
         <Lace />
         </div>
       </div>

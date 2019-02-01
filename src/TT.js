@@ -4,8 +4,8 @@ class TT extends Component {
 
   render() {
     const tt = this.props
-    let text = tt.text || ''
-    let tip = tt.tip || ''
+    let text = ''
+    let tip = ''
     switch (true) {
       case (tt.erd):
         text = 'ERD'
@@ -42,10 +42,14 @@ class TT extends Component {
       case (tt.rim):
         text = 'rim'
         tip = 'rim explanation'
-        case (tt.interlace):
+        break
+      case (tt.interlace):
         text = 'interlace'
-        tip = 'where the inner spoke passes to the outside of a spoke that it crosses (and vice versa)'
+        tip = 'the inner spoke passes to the outside of a spoke that it crosses (and vice versa)'
+        break
     }
+    tip = this.props.tip || tip
+    text = this.props.text || text
 
     return ( <
       span className = 'tooltipped'
