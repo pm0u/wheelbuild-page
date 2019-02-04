@@ -37,6 +37,7 @@ class Tools extends Component {
       <li>2 spokes that are shorter than a quick <TT erd /> measurement of your rim divided by 2 (measure inner diameter of rim with measuring tape)</li>
       <li>2 spoke nipples</li>
       <li>Calipers</li>
+      <li>A good straightedge or metal ruler</li>
       </ul></details>
       </div>
       </div>

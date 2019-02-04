@@ -8,6 +8,8 @@ import TT  from './TT.js'
 import Prep from './Prep'
 import Lace from './Lace'
 import Tension from './Tension'
+import Review from './Review'
+import About from './About'
 import './App.css'
 
 class App extends Component {
@@ -32,8 +34,9 @@ class App extends Component {
     return (
       <div>
         <SideNav />
-        <NavBar />
         <div className='container'>
+          <h2>The Joy of Wheelbuilding</h2>
+          <hr />
         <h3>There are currently <span className='counter'><TT text={this.state.startingVal + this.state.count} tip='(this is completely made up)'/></span> ways to build a bicycle wheel and this is one of them
         </h3>
         <hr />
@@ -48,6 +51,10 @@ class App extends Component {
         <Lace />
         <hr />
         <Tension />
+        <hr />
+        <Review />
+        <hr />
+        <About />
         </div>
       </div>
     );
@@ -55,3 +62,8 @@ class App extends Component {
 }
 
 export default App;
+
+// from melissa:
+// fix explanations for Lacing
+// proofread
+// cut down big blocks of text -- tensioning intro

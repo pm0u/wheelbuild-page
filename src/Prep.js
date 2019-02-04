@@ -6,7 +6,7 @@ class Prep extends Component {
 
   render() {
     return (
-      <div className='section'>
+      <div id='prep' className='section'>
       <h4>Prepare Your Workspace</h4>
       <div className='row'>
       <div className='col s12 l6'>

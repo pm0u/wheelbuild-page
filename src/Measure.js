@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import TT from './TT'
-import { hub_etf, hub_ete, flange_d } from './photos'
+import { hub_etf, hub_ete, flange_d, erd_sticks1, erd_measure, erd_nipple } from './photos'
 
 class Measure extends Component {
 
@@ -13,11 +13,11 @@ class Measure extends Component {
       have obtained to calculate your needed spoke length(s)</p>
     <details>
       <summary>Taking Hub Measurements</summary>
-      <p>The necessary measurements we need at center to flange distance and flange diameter for each side of the hub. We also need to make note of how many holes the rim has.</p>
+      <p>The necessary measurements from the hub are <TT ctf /> distance and the <TT fd /> for both sides of the hub. We also need to note how many holes the hub has (total).</p>
 
       <div className='row'>
         <div className='col s12 l4'>
-          <p>explain how to measure CTF</p>
+          <p>To measure center to flange distance, we have to measure the distance from the flange to the nearest end of the hub and subtract this from the overall width of the hub divided by 2. This is because we don't know where the center of the hub is! I like to use a level working surface and a good straightedge as my references when obtaining these measurements. Record measurements for both sides of the hub.</p>
         </div>
         <div className='col s12 l4'>
           <img className='materialboxed responsive-img' src={hub_ete} />
@@ -28,7 +28,7 @@ class Measure extends Component {
       </div>
       <div className='row'>
         <div className='col s12 l6'>
-          <p>explain measuring flange diameter</p>
+          <p>Flange diameter is the diameter of the circle that passes through the center of the spoke holes in the hub flange. Record measurements for both sides of the hub.</p>
         </div>
         <div className='col s12 l6'>
           <img className='materialboxed responsive-img' src={flange_d} />
@@ -38,24 +38,24 @@ class Measure extends Component {
     <div className='row'>
     <details>
       <summary>Taking Rim Measurements</summary>
-      <p>I'm going to assume that if you have ERD sticks, you will know how to use them. This section will explain how to take this measurement using simpler tools outlined above</p>
+      <p>There are specific tools to accomplish this, but this section will explain how to take this measurement using simpler tools outlined above</p>
             <div className='row'>
       <div className='col s12 l4'>
-      <p>put nipple in rim, etc</p>
+      <p>Find two spoke holes that are directly opposite each other (on opposite sides of the rim). I like to start with the one of the spoke holes next to the valve and the one directly opposite it near the seam. Insert a spoke in each of these spoke holes, and thread a nipple on to each spoke until the spoke is flush with flats on the back of the nipple.</p>
       </div>
       <div className='col s12 l4'>
-      <img className='materialboxed responsive-img' src='./photos/erd_sticks_1.JPG' />
+      <img className='materialboxed responsive-img' src={erd_sticks1} />
       </div>
       <div className='col s12 l4'>
-      <img className='materialboxed responsive-img' src='./photos/erd_sticks_nipple2.JPG' />
+      <img className='materialboxed responsive-img' src={erd_nipple} />
       </div>
       </div>
       <div className='row'>
       <div className='col s12 l6'>
-      <p>explain measuring ERD</p>
+      <p>Use the calipers to pull the spokes taught. Your ERD measurement is the length of the two spokes plus the measurement you read on the calipers.</p>
       </div>
       <div className='col s12 l6'>
-      <img className='materialboxed responsive-img' src='./photos/erd_sticks_measure.JPG' />
+      <img className='materialboxed responsive-img' src={erd_measure} />
       </div>
       </div>
 

@@ -35,18 +35,20 @@ class TT extends Component {
         text = '3 cross'
         tip = 'a spoke lacing pattern wher every spoke crosses 3 other spokes between the hub and the rim'
         break;
-      case (tt.hub):
-        text = 'hub'
-        tip = 'hub explanation'
-        break
-      case (tt.rim):
-        text = 'rim'
-        tip = 'rim explanation'
-        break
       case (tt.interlace):
         text = 'interlace'
         tip = 'the inner spoke passes to the outside of a spoke that it crosses (and vice versa)'
         break
+      case (tt.ctf):
+        text = 'center to flange'
+        tip = 'the distance from the center of the hub flange to the center of the hub.'
+        break
+        case (tt.fd):
+        text='flange diameter'
+        tip='the diameter of the circle passing through the center of the spoke holes in the hub flange.'
+        case (tt.dished):
+        text='dish'
+        tip='the position of the rim relative to the hub, it should be centered.'
     }
     tip = this.props.tip || tip
     text = this.props.text || text

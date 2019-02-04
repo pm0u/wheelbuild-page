@@ -4,7 +4,7 @@ body {
   background: #efebe9;
 }
 
-h3 {
+h3,h2{
   text-align: center;
 }
 summary {
@@ -26,8 +26,11 @@ summary {
 }
 
 ul {
-  list-style-type: square;
+  margin-left: 20px
+}
 
+li {
+  list-style-type: circle !important;
 }
 
 .materialboxed {
