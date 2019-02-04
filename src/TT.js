@@ -43,12 +43,14 @@ class TT extends Component {
         text = 'center to flange'
         tip = 'the distance from the center of the hub flange to the center of the hub.'
         break
-        case (tt.fd):
-        text='flange diameter'
-        tip='the diameter of the circle passing through the center of the spoke holes in the hub flange.'
-        case (tt.dished):
-        text='dish'
-        tip='the position of the rim relative to the hub, it should be centered.'
+      case (tt.fd):
+        text = 'flange diameter'
+        tip = 'the diameter of the circle passing through the center of the spoke holes in the hub flange.'
+        break
+      case (tt.dished):
+        text = 'dish'
+        tip = 'the position of the rim relative to the hub, it should be centered.'
+        break
     }
     tip = this.props.tip || tip
     text = this.props.text || text

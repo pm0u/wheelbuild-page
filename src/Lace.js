@@ -18,7 +18,7 @@ class Lace extends Component {
 
   <p> Spokes can also have orientation - they can leave the hub on the outside or the inside of the hub flange</p>
 
-  <p>The installation procedure for a spoke is as follows: thread spoke through hole in hub flange, insert nipple into rim in the appropriate spoke hole (where spoke should lead to), and thread nipple onto spoke a few turns (leave threads showing)</p>
+  <p>The installation procedure for a spoke is as follows: insert spoke through hole in hub flange, insert nipple into rim in the appropriate spoke hole (where spoke should lead to), and thread nipple onto spoke a few turns (leave threads showing)</p>
   </div>
   <div className='col s12 l6'>
     <div className='col s12 l6'>
@@ -35,7 +35,7 @@ class Lace extends Component {
     <div className='divider'></div>
     <h5>First Side</h5>
     <div className='col s12 l4'>
-      <p>The first two spokes we will install are called key spokes, they set up the entire rest of the wheel, so ensure they are correct! Find the two spoke holes most centered over the logo of the hub. Count spoke holes in pairs moving outward, up to 8 (4 pairs). The spoke holes that you are now pointing at, are where your key spokes go. These will be on either side of the valve hole. One of them will have an empty spoke hole between it and the valve. Install the spokes in opposite directions and orientations.</p>
+      <p>The first two spokes we will install are called key spokes, they set up the entire rest of the wheel, so ensure they are correct! Find the two spoke holes most centered over the logo of the hub. Count spoke holes in pairs moving outward, up to 8 (4 pairs). The spoke holes that you are now pointing at are where your key spokes go. When installed in the rim, these will be on either side of the valve hole. One of them will have an empty spoke hole between it and the valve hole. Install the spokes in opposite directions and orientations.</p>
     </div>
     <div className='col s12 l8'>
       <div className='row'>
@@ -54,7 +54,7 @@ class Lace extends Component {
     </div>
 
   </div>
-  <Check>There should be two spokes in the hub, with 6 spokeholes between them. They should be opposite in orientation. At the rim, one should be installed in the spoke hole next to the rim and the other should have one empty spoke hole between it and the rim</Check>
+  <Check>There should be two spokes in the hub, with 6 spoke holes between them. They should be opposite in orientation. At the rim, one should be installed in the spoke hole next to the valve hole and the other should have one empty spoke hole between it and the valve hole</Check>
 
   <div className='row'>
     <div className='col s12 l6'>
@@ -86,7 +86,7 @@ class Lace extends Component {
   <div className='row'>
     <h5>Second Side</h5>
     <div className='col s12 l4'>
-      <p>Once again, getting the first spoke correct is the most important part. The spoke holes on this side of the hub will be shifted slightly relative to the other side. Start with inner spokes, and find the spoke from the other side that has a hole between it and the valve. Poke a spoke through the spoke holes near it to find the hole that is closest and offset towards that spoke hole. Install the spoke, it will be a bit trickier to get it through... I like to thread it through the spokes on the opposite side as shown in the third photo. The valve hole should be framed as shown in the second photo when the spoke is installed correctly.</p>
+      <p>Once again, getting the first spoke correct is the most important part. The spoke holes on this side of the hub will be shifted slightly relative to the other side. Start with inner spokes, and find the spoke from the other side that has a hole between it and the valve. Poke a spoke through the spoke holes in the hub that are closest to it to find the hole that is closest and offset towards the empty spoke hole next to the valve hole. Install the spoke, it will be a bit trickier to get it through... I like to thread it through the spokes on the opposite side as shown in the third photo. The valve hole should be framed as shown in the second photo when the spoke is installed correctly.</p>
     </div>
     <div className='col s12 l8'>
       <div className='row'>

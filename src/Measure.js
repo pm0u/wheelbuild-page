@@ -9,8 +9,7 @@ class Measure extends Component {
 <div id='measuring' className='section'>
   <h4>Measuring and Obtaining Spokes</h4>
   <div className='row'>
-    <p>As stated above, it is often fine to use stated measurements on modern components. Or perhaps you are only missing one of them. Also, many common hubs and rims are pre entered into spoke calculators. Either way, you will need to use the spoke calculators at the bottom of this section with the measurements you
-      have obtained to calculate your needed spoke length(s)</p>
+    <p>As stated above, it is often fine to use stated measurements on modern components. Also, many common hubs and rims are pre entered into spoke calculators. Either way, you will need to use the spoke calculators at the bottom of this section with the measurements you have obtained to calculate your needed spoke length(s)</p>
     <details>
       <summary>Taking Hub Measurements</summary>
       <p>The necessary measurements from the hub are <TT ctf /> distance and the <TT fd /> for both sides of the hub. We also need to note how many holes the hub has (total).</p>
@@ -70,7 +69,7 @@ class Measure extends Component {
       <li><a target='_blank' href='https://spokes-calculator.dtswiss.com/en/'>DT Swiss</a> - a bit more complicated, but extremely accurate. Aimed towards DT components.</li>
       </ul>
       <h5>Buy Spokes</h5>
-      <p>Once you have determined your spoke length(s), it's time to buy them! I would recommend 2.0mm straight gauge spokes or 2.0/1.8mm double butted for something a bit nicer. Spokes conveniently come in boxes of 50 typically, most bike shops will sell the exact quantity you want (call ahead).</p>
+      <p>Once you have determined your spoke length(s), it's time to buy them! I would recommend 2.0mm straight gauge spokes for your first wheel builds. Spokes conveniently come in boxes of 50 typically, most bike shops will sell the exact quantity you want (call ahead).</p>
       </div>
 
   </div>
