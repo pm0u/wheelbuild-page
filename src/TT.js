@@ -13,11 +13,11 @@ class TT extends Component {
         break;
       case (tt.tensio):
         text = 'Tensiometer'
-        tip = 'A tool used to measure spoke tension by deflecting the spoke'
+        tip = 'a tool used to measure spoke tension by deflecting the spoke'
         break;
       case (tt.dish):
         text = 'Dishing gauge'
-        tip = 'A tool used to determine centering of rim relative to the hub.'
+        tip = 'a tool used to determine centering of rim relative to the hub.'
         break;
       case (tt.spokewrench):
         text = 'Spoke wrench'
@@ -29,7 +29,7 @@ class TT extends Component {
         break;
       case (tt.nippleset):
         text = 'Nipple setter'
-        tip = 'This tool needs to hold the nipple while reaching into the rim to place the nipple and be able to turn the nipple'
+        tip = 'this tool needs to hold the nipple while reaching into the rim to place the nipple and be able to turn the nipple'
         break;
       case (tt.cross3):
         text = '3 cross'

@@ -31,7 +31,7 @@ class Tools extends Component {
       <div className='row'>
       <details>
       <summary>Optional Tools - Measuring hub and <TT erd /></summary>
-      With modern components it is often safe to go by manufacturers measurements when calculating spoke length. If this is not available or you would like to take these measurements yourself, here is what you will need. There is a tool designed for this, called ERD sticks. I'm going to assume you don't have those so you need:
+      With modern components it is often safe to go by manufacturers' measurements when calculating spoke length. If this is not available or you would like to take these measurements yourself, here is what you will need. There is a tool designed for this, called ERD sticks. I'm going to assume you don't have those so you need:
       <ul>
       <li>Measuring tape</li>
       <li>2 spokes that are shorter than a quick <TT erd /> measurement of your rim divided by 2 (measure inner diameter of rim with measuring tape)</li>

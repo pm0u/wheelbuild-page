@@ -7,7 +7,7 @@ class Intro extends Component {
     return (
       <div id='intro' className='section'>
       <p>There are many right ways to build a bicycle wheel, and only a few truly wrong ones. In this guide, I would like to
-      share my preferred method that I have developed. It is by no means exhaustive or the only way to accomplish a well built wheel. If you desire more extensive
+      share my preferred method that I have developed. It is by no means exhaustive or the only way to accomplish a well-built wheel. If you desire more extensive
       explanations, there are additional links found at the bottom of this guide.</p>
     <p>In this guide you will see important terms <TT text='underlined.' tip='you found it!' /> If you hover over them, there will be additional info.
       Occasionally, additional or optional information will be contained in a dropdown.</p>

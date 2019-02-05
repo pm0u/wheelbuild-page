@@ -8,7 +8,7 @@ class Tension extends Component {
     return (
       <div id='tension' className='section'>
       <h4>Tensioning</h4>
-      <p>Break out that truing stand, tensiometer, and chain lube. Put the wheel (yes, you can call it a wheel now!) in the truing stand and before beginning anything else, put a piece of tape where the valve hole is to help keep reference. Beginning at the valve, put a small drop of chain lube at the base of every spoke nipple, where it touches the rim. This will help keep nipples easy to turn.</p>
+      <p>Break out that truing stand, tensiometer, and chain lube. Put the wheel (yes, you can call it a wheel now!) in the truing stand and before beginning anything else, put a piece of tape where the valve hole is to help keep reference. Beginning at the valve, put a small drop of chain lube at the base of every spoke nipple, where it touches the rim. This will help keep the nipples easy to turn.</p>
 
     <p>In this stage we are going to tighten all the spokes so that the wheel is stiff and actually usable. The maximum tension that your wheel should have is determined by the rim, this information is usually available from the manufacturer (sometimes you have to call them). If no information is available, 80-100kgf is a safe range for most components</p>
 
@@ -27,7 +27,7 @@ class Tension extends Component {
       </div>
     </div>
     <div className='row'>
-      <p>We are part way there, about half tensioned. At this point, I suggest being a bit more structured in your approach. I have 5 separate steps that I usually repeat over and over until the wheel is completed. Typically they are in the following order, but use your judgement and jump around if you feel it is best.</p>
+      <p>We are part way there, about half-tensioned. At this point, I suggest being a bit more structured in your approach. I have 5 separate steps that I usually repeat over and over until the wheel is completed. Typically they are in the following order, but use your judgement and jump around if you feel it is best.</p>
     </div>
     <div className='row'>
       <details>

@@ -54,7 +54,7 @@ class Lace extends Component {
     </div>
 
   </div>
-  <Check>There should be two spokes in the hub, with 6 spoke holes between them. They should be opposite in orientation. At the rim, one should be installed in the spoke hole next to the valve hole and the other should have one empty spoke hole between it and the valve hole</Check>
+  <Check>There should be two spokes in the hub, with 6 spoke holes between them. They should be opposite in orientation. At the rim, one should be installed in the spoke hole next to the valve hole and the other should have one empty spoke hole between it and the valve hole.</Check>
 
   <div className='row'>
     <div className='col s12 l6'>
@@ -65,12 +65,12 @@ class Lace extends Component {
     </div>
   </div>
 
-  <Check>All spokes of same direction should leave hub in the same orientation, with one spoke hole inbetween. At the rim, there should be 3 spoke holes between spokes of the same direction.</Check>
+  <Check>All spokes of same direction should leave hub in the same orientation, with one spoke hole in between. At the rim, there should be 3 spoke holes between spokes of the same direction.</Check>
 
 
   <div className='row'>
     <div className='col s12 l4'>
-      <p>Now lace all spokes of the other direction for this same side of the hub. Again, these spokes should all leave the hub on the same side as the first spoke that you installed of this direction.  Use the key spoke as a guide -- the spokes next to it at the hub should be 3 spoke holes away at the rim, continue the pattern from there. These spokes will cross 3 other spokes of the same direction on their way to the rim, and it will need to <TT interlace /> the third spoke ot crosses (see photo to right).</p>
+      <p>Now lace all spokes of the other direction for this same side of the hub. Again, these spokes should all leave the hub on the same side as the first spoke that you installed of this direction.  Use the key spoke as a guide -- the spokes next to it at the hub should be 3 spoke holes away at the rim, continue the pattern from there. These spokes will cross 3 other spokes of the same direction on their way to the rim, and it will need to <TT interlace /> the third spoke it crosses (see photo to right).</p>
     </div>
     <div className='col s12 l4'>
       <img alt='lace all leading' className="materialboxed responsive-img" width="100%" src={interlace1} />
@@ -81,7 +81,7 @@ class Lace extends Component {
   </div>
 
   <Check>Trace each outer spoke with your finger, ensure that it crosses 3 spokes and is <TT interlace text='interlaced' /> with the third. Trace it all the way to the rim, there should be an empty spoke hole on either side. The nearest spoke on
-    both sides should be of the opposite direction</Check>
+    both sides should be of the opposite direction.</Check>
 
   <div className='row'>
     <h5>Second Side</h5>
@@ -116,7 +116,7 @@ class Lace extends Component {
         <img alt='lace all leading' className="materialboxed responsive-img" width="100%" src={lace_leading_other_side} />
       </div>
     </div>
-    <Check>At hub, there should be an empty spoke hole next to each installed spoke and they all leave the hub on the inside. At the rim, there are 3 spoke holes between each of these spokes (2 with spokes in them, 1 empty)</Check>
+    <Check>At hub, there should be an empty spoke hole next to each installed spoke and they all leave the hub on the inside. At the rim, there are 3 spoke holes between each of these spokes (2 with spokes in them, 1 empty).</Check>
 
     <div className='row'>
       <div className='col s12 l6'>
